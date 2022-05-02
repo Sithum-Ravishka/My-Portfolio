@@ -1,0 +1,44 @@
+.educationCard {
+  width: 33rem;
+  height: 6rem;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--orangeCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 2rem;
+}
+.eduDetails{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.eduCardImg{
+  width: 5rem;
+}
+
+.educationCard span:nth-of-type(2) {
+  color: var(--gray);
+  font-size: 16px;
+}
+.educationCard > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+
+/* cards */
+
+
+
+
+@media screen and (max-width: 480px){
+  .educationCard{
+    width: auto;
+  }
+}

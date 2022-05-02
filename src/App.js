@@ -3,6 +3,9 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
+import Footer from "./components/Footer/Footer";
+import Services from "./components/Services/Services";
+import Education from "./components/Education/Education";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -16,6 +19,10 @@ function App() {
     >
       <Navbar />
       <Intro />
+      <Services/>
+      <Education/>
+
+      <Footer/>
     </div>
   );
 }

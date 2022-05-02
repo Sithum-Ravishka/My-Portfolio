@@ -12,6 +12,7 @@
   flex-direction: column;
   gap: 2rem;
 }
+
 .i-name {
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@
 }
 .i-button {
   width: 7rem;
-  height: 3rem;
+  height: 2rem;
 }
 .i-icons {
   margin-top: 3rem;

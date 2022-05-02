@@ -10,6 +10,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+//import sithum from "../../img/sithum.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -35,7 +36,7 @@ const Intro = () => {
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Contact me</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
@@ -69,13 +70,13 @@ const Intro = () => {
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
+          initial={{ left: "8rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Best UI/UX" text2="Design" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

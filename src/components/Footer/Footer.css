@@ -1,0 +1,166 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  height: 10rem;
+  margin-top: 7rem;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+  color: white;
+}
+
+.scoMeadia{
+  display: flex;
+  flex-direction: column;
+}
+
+.f-icons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 45rem;
+  margin-top: 3rem;
+}
+
+.contactme{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0rem;
+}
+
+.contactme > :nth-child(1) {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.contactme > :nth-child(2) {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.contactme > :nth-child(3) {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactme > :nth-child(4) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.contactme > :nth-child(5) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.f-creator{
+  margin: auto;
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5.5rem;
+}
+
+.f-creator > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.f-creator > :nth-child(1)  > :nth-child(1) {
+  color: blue;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 480px){
+
+  .f-content{
+    transform: scale(.5);
+  }
+
+  .scoMeadia{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .f-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 8rem;
+    margin-top: 9rem;
+  }
+
+
+  .f-creator{
+    margin-left: -20rem;
+    margin-top: 5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .f-creator > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .f-creator > :nth-child(1)  > :nth-child(1) {
+    color: blue;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+    .contactme{
+      display: flex;
+      flex-direction: column;
+      margin-left: -2rem;
+      margin-top: 4rem;
+    }
+    
+  .contactme > :nth-child(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .contactme > :nth-child(2) {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .contactme > :nth-child(3) {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contactme > :nth-child(4) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .contactme > :nth-child(5) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+}
