@@ -28,11 +28,16 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Sithum Ravishka</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          I am 3rd year Information Technology
+          Undergraduate Student at SLIIT. I like to
+          learn new things. I believe I have the
+          ability to quickly learn how to use new
+          software in a very short period of time.
+          Here I'm looking for my internship to
+          improve my professional experience.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -40,9 +45,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/Sithum-Ravishka">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://lk.linkedin.com/in/sithum-ravishka-753619211">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/sithum_ravishka/">
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}

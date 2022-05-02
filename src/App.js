@@ -6,6 +6,7 @@ import Intro from "./components/Intro/Intro";
 import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
 import Education from "./components/Education/Education";
+import Contact from "./components/Contact/Contact";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -21,6 +22,7 @@ function App() {
       <Intro />
       <Services/>
       <Education/>
+      <Contact/>
 
       <Footer/>
     </div>

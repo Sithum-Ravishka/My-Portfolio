@@ -33,7 +33,7 @@ const Education = () => {
         {/* first card */}
         <motion.div
           initial={{ left: "0rem", top: "0rem" }}
-          whileInView={{ left: "-15rem" }}
+          whileInView={{ left: "-13rem" }}
           transition={transition}
         >
           <EducationCard
@@ -45,8 +45,8 @@ const Education = () => {
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-10rem", top: "10rem" }}
-          whileInView={{ left: "-5rem", top:"10rem"}}
+          initial={{ left: "10rem", top: "10rem" }}
+          whileInView={{ left: "-10rem", top:"10rem"}}
           transition={transition}
         >
           <EducationCard
@@ -58,8 +58,8 @@ const Education = () => {
         </motion.div>
         {/* 3rd */}
         <motion.div
-          initial={{ top: "20rem", left: "-10rem" }}
-          whileInView={{ left: "-10rem", top: "20rem"}}
+          initial={{ top: "20rem", left: "10rem" }}
+          whileInView={{ left: "-7rem", top: "20rem"}}
           transition={transition}
         >
           <EducationCard
